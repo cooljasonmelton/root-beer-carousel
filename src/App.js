@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
+import CardContainer from './components/CardContainer'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div className="App center-box">
+      <CardContainer/>
 
     </div>
   );

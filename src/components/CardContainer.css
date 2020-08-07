@@ -1,0 +1,38 @@
+.CardContainer{
+    height: 40%;
+    width: 60%;
+    
+    padding: 2em;
+
+    background-color: #E9C4D2;
+
+    flex-direction: column;
+}
+
+/* ARROWS */
+.arrow{
+    height: 1.5em;
+    width: 1.5em;
+    
+    border-top: 0.5em solid #B1436E;
+    border-right: 0.5em solid #B1436E;
+}
+.arrow.left{
+    -webkit-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    transform: rotate(225deg);
+
+}
+.arrow.right{
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* CARD */
+.Card{
+    background-color: #F67F51;
+    width: 50%;
+    height: 20%;
+
+}
