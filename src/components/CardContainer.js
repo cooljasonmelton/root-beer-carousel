@@ -19,18 +19,26 @@ const CardContainer = () => {
 
   return (
     <div className="CardContainer center-box">
+      
         <div className="arrow-container center-box">
-          <div className="arrow left"></div>
-          <div className="arrow right"></div>
+          
+          {/* card num is 0, arrow display is none  */}
+          <div onClick={()=> setCardNum(cardNum - 1)} 
+            style={{display: cardNum === 0 ? "none" : "block" }} 
+            className="arrow left">
+          </div>
+
+          {/* card num is 6, arrow display is none  */}
+          <div onClick={()=> setCardNum(cardNum + 1)} 
+            style={{display: cardNum === 6 ? "none" : "block" }}
+            className="arrow right"></div>
         </div>
+
       <Card imgSrc={rootBeer1}/>
       <Card imgSrc={rootBeer2}/>
       <Card imgSrc={rootBeer3}/>
       <Card imgSrc={rootBeer4}/>
       <Card imgSrc={rootBeer5}/>
-
- 
-
 
     </div>
   );

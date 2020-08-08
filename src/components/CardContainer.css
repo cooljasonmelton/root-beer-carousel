@@ -20,6 +20,8 @@
     
     border-top: 0.5em solid #B1436E;
     border-right: 0.5em solid #B1436E;
+
+    cursor: pointer;
 }
 .arrow.left{
     -webkit-transform: rotate(225deg);
