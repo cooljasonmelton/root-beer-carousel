@@ -14,6 +14,7 @@
 .arrow-container{
     padding: 1em;
 }
+
 .arrow{
     height: 1.5em;
     width: 1.5em;
@@ -23,6 +24,7 @@
 
     cursor: pointer;
 }
+
 .arrow.left{
     -webkit-transform: rotate(225deg);
     -ms-transform: rotate(225deg);
@@ -37,6 +39,9 @@
 
 /* CARD */
 .Card{
+    position: relative;
+    left: 0;
+
     padding: 0.5em;
 
     background-color: #B1436E;
@@ -47,4 +52,15 @@
 
 .rootbeer-img{
     width: 100%;
+}
+
+/* CARD TRANSITIONS */
+.present{
+    left: 0
+}
+.next{
+    left: 200vw;
+}
+.previous{
+    left: -200vw;
 }

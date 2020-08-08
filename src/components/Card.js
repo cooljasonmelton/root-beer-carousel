@@ -1,9 +1,11 @@
 import React from 'react';
 
 const Card = props => {
+
+  const {imgSrc, classList} = props
   return (
     <div className="Card">
-      <img src={props.imgSrc} className="rootbeer-img"/>
+      <img src={imgSrc} className={classList}/>
     </div>
   );
 }
