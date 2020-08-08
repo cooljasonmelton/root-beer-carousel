@@ -44,13 +44,17 @@
 
     background-color: #B1436E;
 
-    width: 70%;
+    width: 100%;
+    height: 60vh;
+
+    padding: 2em;
+
 
     transition: 0.5s;
 }
 
 .rootbeer-img{
-    width: 100%;
+    height: 100%;
 }
 
 /* CARD TRANSITIONS */
@@ -58,21 +62,26 @@
     left: 0;
     opacity: 1;
     visibility: visible; 
+
 }
 .next{
     position: absolute;
-    left: 1000px;
+    top: 30%;
+    left: 2000px;
     opacity: 0;
     visibility: hidden; 
-    margin-top: 30%;
+    height: 10px;
+    width: 10px;
 
 }
 .previous{    
     position: absolute;
-    left: -1000px;
+    top: 30%;
+    left: -2000px;
     opacity: 0;
     visibility: hidden; 
-    margin-top: 30%;
+    height: 10px;
+    width: 10px;
 
 }
 
