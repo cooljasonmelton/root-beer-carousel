@@ -17,7 +17,7 @@ const CardContainer = () => {
   const [cardNum, setCardNum] = useState(1)
 
   const setClass = num => {
-    const classArr = ['Card']
+    const classArr = ['Card center-box']
     if (num === cardNum) classArr.push('present')
     if (num > cardNum) classArr.push('next')
     if (num < cardNum) classArr.push('previous')
