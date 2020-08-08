@@ -17,7 +17,7 @@ const CardContainer = () => {
   const [cardNum, setCardNum] = useState(1)
 
   const setClass = num => {
-    const classArr = ['rootbeer-img']
+    const classArr = ['Card']
     if (num === cardNum) classArr.push('present')
     if (num > cardNum) classArr.push('next')
     if (num < cardNum) classArr.push('previous')
@@ -32,13 +32,15 @@ const CardContainer = () => {
         
         {/* card num is 0, arrow display is none  */}
         <div onClick={()=> setCardNum(cardNum - 1)} 
-          style={{display: cardNum === 0 ? "none" : "block" }} 
+          style={{display: cardNum === 1 ? "none" : "block" }} 
           className="arrow left">
         </div>
+        
+        <h1>{cardNum}</h1>
 
         {/* card num is 6, arrow display is none  */}
         <div onClick={()=> setCardNum(cardNum + 1)} 
-          style={{display: cardNum === 6 ? "none" : "block" }}
+          style={{display: cardNum === 5 ? "none" : "block" }}
           className="arrow right"></div>
       </div>
 

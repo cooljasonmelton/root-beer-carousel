@@ -1,6 +1,5 @@
 .CardContainer{
-    height: 40%;
-    width: 60%;
+    width: 50%;
     
     margin: 2em;
     padding: 2em;
@@ -40,14 +39,14 @@
 /* CARD */
 .Card{
     position: relative;
-    left: 0;
 
     padding: 0.5em;
 
     background-color: #B1436E;
 
     width: 70%;
-    height: 20%;
+
+    transition: 0.5s;
 }
 
 .rootbeer-img{
@@ -56,11 +55,26 @@
 
 /* CARD TRANSITIONS */
 .present{
-    left: 0
+    left: 0;
+    opacity: 1;
+    visibility: visible; 
 }
 .next{
-    left: 200vw;
+    position: absolute;
+    left: 1000px;
+    opacity: 0;
+    visibility: hidden; 
+    margin-top: 30%;
+
 }
-.previous{
-    left: -200vw;
+.previous{    
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    visibility: hidden; 
+    margin-top: 30%;
+
 }
+
+
+

@@ -4,8 +4,8 @@ const Card = props => {
 
   const {imgSrc, classList} = props
   return (
-    <div className="Card">
-      <img src={imgSrc} className={classList}/>
+    <div className="Card" className={classList}>
+      <img src={imgSrc} className="rootbeer-img"/>
     </div>
   );
 }
