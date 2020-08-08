@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Card = () => {
+const Card = props => {
   return (
     <div className="Card">
-
+      <img src={props.imgSrc} className="rootbeer-img"/>
     </div>
   );
 }

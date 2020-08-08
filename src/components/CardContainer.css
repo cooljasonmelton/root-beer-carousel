@@ -2,6 +2,7 @@
     height: 40%;
     width: 60%;
     
+    margin: 2em;
     padding: 2em;
 
     background-color: #E9C4D2;
@@ -10,6 +11,9 @@
 }
 
 /* ARROWS */
+.arrow-container{
+    padding: 1em;
+}
 .arrow{
     height: 1.5em;
     width: 1.5em;
@@ -31,8 +35,14 @@
 
 /* CARD */
 .Card{
-    background-color: #F67F51;
-    width: 50%;
-    height: 20%;
+    padding: 0.5em;
 
+    background-color: #B1436E;
+
+    width: 70%;
+    height: 20%;
+}
+
+.rootbeer-img{
+    width: 100%;
 }
