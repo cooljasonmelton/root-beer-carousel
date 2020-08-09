@@ -1,3 +1,3 @@
-# root beer carousal
+# root beer carousel
 
 <img src="https://github.com/cooljasonmelton/root-beer-carousal/blob/master/root-beer-carousal.gif?raw=true" alt='demo gif' />
